@@ -1,18 +1,18 @@
 {
-  "name": "retarded-boilerplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "name": "gulp-nunjucks-boilerplate",
+  "version": "0.0.1",
+  "description": "Gulp tasks for SASS and Nunjucks",
+  "main": "dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/mryellow/retarded-boilerplate.git"
+    "url": "git+ssh://git@github.com:mryellow/gulp-nunjucks-boilerplate.git"
   },
   "author": "Mr-Yellow",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/mryellow/retarded-boilerplate#readme",
+  "homepage": "https://github.com/mryellow/gulp-nunjucks-boilerplate",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",
