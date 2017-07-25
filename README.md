@@ -33,3 +33,19 @@ gulp dev:watch
 gulp styles:build
 gulp styles:clean
 ```
+
+## Deploy process
+
+```bash
+# Development
+git add .
+git commit -a -m 'Commit message'
+# Deployment
+gulp deploy:bump # Advance to next even (production) semver
+gulp deploy:tag  # Tag and Push
+gulp deploy:bump # Advance to next odd (development) semver
+# Development
+git add .
+git commit -a -m 'Commit message'
+git push
+```
