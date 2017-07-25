@@ -22,7 +22,8 @@ gulp
 ## Gulp Tasks
 
 ```bash
-gulp build # Everything except `dev:watch`
+gulp # Build and watch
+gulp build # Build only
 gulp build:assets
 gulp build:html
 gulp deploy:bump
