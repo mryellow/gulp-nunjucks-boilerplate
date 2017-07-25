@@ -7,7 +7,11 @@ module.exports = gulp => {
   // Only even semver can be production version
   if (/\d+\.\d+\.\d*[02468]/.test(package.version)) {
     console.log('Production ' + tag);
-    return git.tag(tag, 'Release ' + tag, function (err) {
+    git.tag(tag, 'Release ' + tag, function (err) {
+      if (err) throw err;
+    });
+
+    git.push('origin', { args: ' --tags' }, function (err) {
       if (err) throw err;
     });
   } else {
