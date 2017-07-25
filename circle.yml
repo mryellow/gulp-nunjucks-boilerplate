@@ -9,7 +9,8 @@ general:
   branches:
     only:
       - staging
-      - production
+      - /\d+\.\d+\.\d*[02468]/
+      #- production
 
 deployment:
   deploy_staging:
