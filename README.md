@@ -23,8 +23,8 @@ gulp
 
 ```bash
 gulp build # Everything except `dev:watch`
+gulp build:assets
 gulp build:html
-gulp build:imgs
 gulp deploy:bump
 gulp deploy:tag
 gulp dev:reload
