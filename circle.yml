@@ -1,0 +1,24 @@
+machine:
+  #node:
+  #  version: 4.2.2
+  #  version: 6.9.4
+  #environment:
+  #  NODE_ENV: production
+
+general:
+  branches:
+    only:
+      - staging
+      - production
+
+deployment:
+  deploy_staging:
+    branch: staging
+    #owner: $CIRCLE_PROJECT_USERNAME
+    commands:
+      - echo "Deploy to staging server"
+  deploy_production:
+    branch: production
+    #owner: $CIRCLE_PROJECT_USERNAME
+    commands:
+      - echo "Deploy to production server"
