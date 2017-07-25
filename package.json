@@ -17,6 +17,7 @@
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-bump": "^2.7.0",
     "gulp-data": "^1.2.1",
     "gulp-nunjucks-render": "^2.2.1",
     "gulp-require-tasks": "^1.2.1",
