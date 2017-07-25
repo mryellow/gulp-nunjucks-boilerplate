@@ -18,7 +18,8 @@ deployment:
     commands:
       - echo "Deploy to staging server"
   deploy_production:
-    branch: production
+    branch: /\d+\.\d+\.\d*[02468]/
+    #branch: production
     #owner: $CIRCLE_PROJECT_USERNAME
     commands:
       - echo "Deploy to production server"
