@@ -12,8 +12,8 @@
 ## Development
 
 ```bash
-git clone git@bitbucket.org:mryellow/retarded-boilerplate.git
-cd retarded-boilerplate
+git clone git@github.com:mryellow/gulp-nunjucks-boilerplate.git
+cd gulp-nunjucks-boilerplate
 npm install --global gulp-cli
 npm install
 gulp
