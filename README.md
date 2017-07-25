@@ -1,4 +1,4 @@
-# Retarded Boilerplate
+# Gulp Nunjucks Boilerplate
 
 ## Stack
 
