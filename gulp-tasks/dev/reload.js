@@ -1,6 +1,7 @@
 module.exports = {
-  deps: ['build'],
-  fn: gulp => {
+  deps: ['build:html'],
+  fn: function (gulp, callback) {
     global.BROWSER_SYNC.reload();
+    callback();
   },
 };

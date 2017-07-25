@@ -9,3 +9,12 @@ body {
   background: $colour-back;
   color: $colour-fore;
 }
+
+header,
+footer {
+  list-style: none;
+
+  li {
+    display: inline;
+  }
+}

@@ -21,9 +21,13 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    {% include "partials/navbar.html" %}
+    {% include "partials/header.html" %}
 
-    {% block content %} {% endblock %}
+    {% block content %}
+      
+    {% endblock %}
+
+    {% include "partials/footer.html" %}
   </body>
 
 </html>
