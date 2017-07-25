@@ -1,0 +1,26 @@
+{
+  "name": "retarded-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/mryellow/retarded-boilerplate.git"
+  },
+  "author": "Mr-Yellow",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/mryellow/retarded-boilerplate#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-require-tasks": "^1.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "vinyl-paths": "^2.1.0"
+  }
+}
