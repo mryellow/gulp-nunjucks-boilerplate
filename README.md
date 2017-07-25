@@ -24,7 +24,9 @@ gulp
 ```bash
 gulp build # Everything except `dev:watch`
 gulp build:html
+gulp build:imgs
+gulp dev:reload
 gulp dev:watch
-gulp styles:clean
 gulp styles:build
+gulp styles:clean
 ```
