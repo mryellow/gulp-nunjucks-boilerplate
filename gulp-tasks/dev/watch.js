@@ -1,5 +1,3 @@
-
-
 module.exports = gulp => {
   global.BROWSER_SYNC.init({
     server: global.BASE_PATH + '/dist',
