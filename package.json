@@ -1,6 +1,6 @@
 {
   "name": "gulp-nunjucks-boilerplate",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "Gulp tasks for SASS and Nunjucks",
   "main": "dist/index.html",
   "scripts": {
