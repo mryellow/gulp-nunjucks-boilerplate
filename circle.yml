@@ -16,10 +16,12 @@ deployment:
     branch: staging
     #owner: $CIRCLE_PROJECT_USERNAME
     commands:
+      - gulp build
       - echo "Deploy to staging server"
   deploy_production:
     branch: /\d+\.\d+\.\d*[02468]/
     #branch: production
     #owner: $CIRCLE_PROJECT_USERNAME
     commands:
+      - gulp build
       - echo "Deploy to production server"
