@@ -1,0 +1,19 @@
+@import 'colors';
+
+$colour-white: #fff;
+$colour-black: #000;
+$colour-fore: #333;
+$colour-back: $colour-white;
+$colour-fore-highlight: $color-primary-2;
+$colour-back-highlight: $color-secondary-2-2;
+$colour-border: #aaa;
+$colour-box-shadow: rgba(0, 0, 0, .1);
+$colour-back-button: $color-primary-4;
+$colour-fore-button: $color-primary-0;
+$colour-link: $colour-back-button;
+$colour-back-success: $color-secondary-1-4;
+$colour-fore-success: $color-secondary-1-0;
+$colour-back-error: $color-complement-4;
+$colour-fore-error: $color-complement-0;
+
+$border-radius: 4px;

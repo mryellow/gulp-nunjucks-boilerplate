@@ -1,3 +1,11 @@
+@import 'config';
+@import 'corners';
+@import 'font-awesome';
+@import 'fonts';
+@import 'scale';
+@import 'reset';
+
 body {
-  font-size: 1em;
+  background: $colour-back;
+  color: $colour-fore;
 }

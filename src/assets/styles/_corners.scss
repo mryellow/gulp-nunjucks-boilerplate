@@ -1,0 +1,45 @@
+@import 'config';
+
+.corner-all,
+.corner-bottom,
+.corner-right,
+.corner-br,
+%corner-all,
+%corner-bottom,
+%corner-right,
+%corner-br {
+  border-bottom-right-radius: $border-radius;
+}
+
+.corner-all,
+.corner-bottom,
+.corner-left,
+.corner-bl,
+%corner-all,
+%corner-bottom,
+%corner-left,
+%corner-bl {
+  border-bottom-left-radius: $border-radius;
+}
+
+.corner-all,
+.corner-top,
+.corner-right,
+.corner-tr,
+%corner-all,
+%corner-top,
+%corner-right,
+%corner-tr {
+  border-top-right-radius: $border-radius;
+}
+
+.corner-all,
+.corner-top,
+.corner-left,
+.corner-tl,
+%corner-all,
+%corner-top,
+%corner-left,
+%corner-tl {
+  border-top-left-radius: $border-radius;
+}

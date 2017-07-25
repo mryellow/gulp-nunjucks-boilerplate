@@ -1,0 +1,27 @@
+@import '../../../node_modules/modularscale-sass/stylesheets/_modularscale.scss';
+
+// http://type-scale.com/?size=16&scale=1.200&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family=%27Libre%20Baskerville%27,%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333
+
+$modularscale: (
+  base: 1em,
+  ratio: $minor-third
+);
+
+$scale-largest: ms(3); //1.728em;
+$scale-larger: ms(2); //1.44em;
+$scale-large: ms(1); //1.2em;
+$scale-normal: ms(); //1em;
+$scale-small: ms(-1); //.833em;
+$scale-smaller: ms(-2); //.694em;
+$scale-smallest: ms(-3); //.579em;
+
+$scale-huge: ms(5);
+$scale-tiny: ms(-6);
+
+// @debug($scale-largest);
+// @debug($scale-larger);
+// @debug($scale-large);
+// @debug($scale-normal);
+// @debug($scale-small);
+// @debug($scale-smaller);
+// @debug($scale-smallest);

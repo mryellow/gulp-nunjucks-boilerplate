@@ -14,6 +14,7 @@
   "license": "MIT",
   "homepage": "https://bitbucket.org/mryellow/retarded-boilerplate#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-data": "^1.2.1",
@@ -21,6 +22,7 @@
     "gulp-require-tasks": "^1.2.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
+    "modularscale-sass": "^3.0.3",
     "vinyl-paths": "^2.1.0"
   }
 }
