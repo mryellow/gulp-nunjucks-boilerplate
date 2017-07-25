@@ -8,10 +8,10 @@ module.exports = gulp => {
   if (/\d+\.\d+\.\d*[02468]/.test(package.version)) {
     console.log('Production ' + tag);
     git.tag(tag, 'Release ' + tag, function (err) {
-      if (err) throw err;
+      if (err) console.log(err.message);
     });
 
-    git.push('origin', { args: ' --tags' }, function (err) {
+    git.push('origin', { args: ' --follow-tags' }, function (err) {
       if (err) throw err;
     });
   } else {
