@@ -23,7 +23,7 @@
     "gulp-git": "2.5.2",
     "gulp-nunjucks-render": "2.2.2",
     "gulp-require-tasks": "1.2.1",
-    "gulp-sass": "3.2.1",
+    "gulp-sass": "4.0.1",
     "gulp-sourcemaps": "2.6.4",
     "modularscale-sass": "3.0.5",
     "vinyl-paths": "2.1.0"
