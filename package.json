@@ -14,7 +14,7 @@
   "license": "MIT",
   "homepage": "https://github.com/mryellow/gulp-nunjucks-boilerplate",
   "devDependencies": {
-    "browser-sync": "2.23.6",
+    "browser-sync": "2.27.10",
     "del": "3.0.0",
     "fs": "0.0.1-security",
     "gulp": "3.9.1",
